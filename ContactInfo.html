@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h2>My Contact Details</h2>
+    <p>If you have any questions please leave me a message:</p>
+    <p><strong>Email:</strong> <a href="mailto:robuilinca2000@gmail.com"> robuilinca2000@gmail.com </a> </p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/ilinca.robu">Ilinca Robu</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/ilinca.robu/?hl=ro">ilinca.robu</a></p>
+    <p><strong>My adress:</strong> Str. Valeleu, Nr. 12, Bl. 234, Sc. D, Et. 10, Ap. 456.</p>
+    <p><strong>Phone Number:</strong> 076033566</p>
+    <h2>Sign in</h2>
+    <p>Set up your account:</p>
+    <table>
+      <form action="mailto:robuilinca2000@gmail.com" method="post" enctype="text/plain">
+        <tr>
+          <td><label>Name:</label></td>
+          <td><input type="text" name="YourName" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Surname:</label></td>
+          <td><input type="text" name="YourSurname" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" pattern=".+@gmail.com" size="30" required></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone number:</label></td>
+          <td><input type="tel" id="phone" name="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+        </tr>
+        <tr>
+          <td><label>Enter your birthday:</label></td>
+          <td><input type="date" name="bday"></td>
+        </tr>
+        <tr>
+          <td><label>Password</label></td>
+          <td><input type="password" name="" value=""></td>
+        </tr><br>
+      </form>
+    </table>
+    <form class="" action="index.html" method="post">
+      <label>Would you like to save this password?</label>
+      <input type="checkbox" name="" value=""><br>
+      <br>
+      <label for="avatar">Choose a profile picture:</label>
+      <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"><br>
+      <br>
+      <label>Choose a colour theme:</label>
+      <input type="color" name="" value=""><br>
+      <br>
+      <label>Your Message:</label><br>
+      <textarea name="name" rows="4" cols="30"></textarea><br>
+      <br>
+      <label>Do you want to sign up to the email list?</label>
+      <input type="checkbox" name="" value=""><br>
+      <label>You must agree to the terms and conditions</label>
+      <input type="checkbox" name="" value=""><br>
+      <br>
+      <input type="submit" name="">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
